@@ -739,7 +739,7 @@ export class ElementController {
 
     // 重新计算数据 / Recalculate data
     this.computeStyle('expand');
-    const data = this.computeChangesAndDrawData({ stage: 'collapse', animation });
+    const data = this.computeChangesAndDrawData({ stage: 'expand', animation });
     if (!data) return;
     const { drawData } = data;
     const { update } = drawData;
